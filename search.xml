@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>bookmarkcollection1</title>
+    <url>/2022/04/25/bookmarkcollection1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>收藏</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>dbeaver</title>
+    <url>/2022/04/25/dbeaver/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>高效工具</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客说明</title>
     <url>/2022/04/24/hello-world/</url>
     <content><![CDATA[<p>博客 <a href="https://endcy.github.io/">首页</a>，后续尝试将笔记和其他博客内容迁移至此。</p>
@@ -17,5 +39,38 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>人文</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>javaGC</title>
+    <url>/2022/04/25/javaGC/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>博客帮助</title>
+    <url>/help/index.html</url>
+    <content><![CDATA[<p><a href="https://github.com/endcy/endcy.github.io/issues">查看issues</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>

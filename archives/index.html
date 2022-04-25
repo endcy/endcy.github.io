@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-<meta name="author" content="John Doe">
+<meta name="author" content="endcy">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta http-equiv="mobile-agent" content="format=html5; url=https://endcy.github.io">
 <meta http-equiv="X-DNS-Prefetch-Control" content="on">
@@ -18,7 +18,7 @@
 <link rel="shortcut icon" href="/images/favicon.png">
 
 
-<title>Archives - Hexo</title>
+<title>归档 - 开发者博客</title>
 
 <meta name="keywords" content="">
 
@@ -26,10 +26,10 @@
 
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Archives - Hexo" />
+<meta property="og:title" content="归档 - 开发者博客" />
 <meta property="og:description" content="" />
 <meta property="og:url" content="https://endcy.github.io" />
-<meta property="og:site_name" content="Hexo" />
+<meta property="og:site_name" content="开发者博客" />
 
 <link rel="dns-prefetch" href="https://endcy.github.io">
 <link rel="prefetch" href="https://endcy.github.io">
@@ -66,10 +66,16 @@
 <div id="nav">
     <nav class="nav-menu">
         <a class="site-name current" href="/" title="endcy">endcy</a>
-        <a class="site-index current" href="/"><i class="fa fa-home"></i><span>Home</span></a>
-        <a href="/archives" title="Archives"><i class="fa fa-archives"></i><span>Archives</span></a>
-        <a href="/tags" title="Tags"><i class="fa fa-tags"></i><span>Tags</span></a>
+        <a class="site-index current" href="/"><i class="fa fa-home"></i><span>首页</span></a>
+        <a href="/archives" title="归档"><i class="fa fa-archives"></i><span>归档</span></a>
+        <a href="/tags" title="标签"><i class="fa fa-tags"></i><span>标签</span></a>
         <!-- custom single page of menus -->
+        
+        
+        <a href="/categories" title="分类">
+            <i class="fa fa-server"></i>
+            <span>分类</span>
+        </a>
         
         
         <a href="/help" title="帮助">
@@ -116,14 +122,14 @@
 
             <div class="page-title">
     <ul>
-        <li><a href="/" data-name="Home" title="Back Home">Home</a></li>
-        <li><a href="/tags" data-name="Tag Cloud" title="Tag Cloud">Tags</a></li>
+        <li><a href="/" data-name="首页" title="Back Home">首页</a></li>
+        <li><a href="/tags" data-name="标签云" title="标签云">标签</a></li>
         <li class="page-search">
     <form id="search" class="search-form">
         <input type="text"
                readonly="readonly"
                id="local-search-input-tip"
-               placeholder="click to search..." />
+               placeholder="站内检索~" />
         <button type="button" disabled="disabled" class="search-form-submit"><i class="fa fa-search"></i></button>
     </form>
 </li>
@@ -133,7 +139,7 @@
 <div class="main-inner">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="post-header">
-            <h3 class="post-title">Nice 🥳 1 posts in total. Keep on posting.</h3>
+            <h3 class="post-title">搬砖和阅读，都需要日积月累：目前已有4篇文章 (ง •_•)ง</h3>
         </div>
         
         <div class="post-content markdown-body" itemprop="articleBody">
@@ -147,6 +153,30 @@
                     <h2>2022年04月</h2>
                     <ul class="archives_list">
                         
+                        <li>25日21:36:27
+                            <a href="/2022/04/25/bookmarkcollection1/">bookmarkcollection1</a>
+                            
+                        </li>
+                        
+                
+                
+                
+                        <li>25日21:34:01
+                            <a href="/2022/04/25/dbeaver/">dbeaver</a>
+                            
+                        </li>
+                        
+                
+                
+                
+                        <li>25日20:57:52
+                            <a href="/2022/04/25/javaGC/">javaGC</a>
+                            
+                        </li>
+                        
+                
+                
+                
                         <li>24日20:43:00
                             <a href="/2022/04/24/hello-world/">博客说明</a>
                             
@@ -166,17 +196,17 @@
     <footer class="footer">
     <div class="footer-inner" style="text-align: left">
         <p>
-            <a href="/about"  title="About">About</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/about"  title="关于">关于</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
             <!-- 自定义链接 -->
-            <a href="/help" title="Help" >Help</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
-            <a href="/links" title="Links">Links</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
-            <a href="/sitemap.xml" title="SiteMap">SiteMap</a>
+            <a href="/help" title="帮助" >帮助</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/links" title="友链">友链</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/sitemap.xml" title="地图">地图</a>
         </p>
         <p>
-            Has been established&nbsp<a href="/timeline" id="siteBuildingTime"></a>&nbspDays，<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="licence">Based on Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a><br/>
-            ©2017-<span id="cpYear"></span> Based on&nbsp<a href="http://hexo.io" target="_blank" rel="nofollow">Hexo</a>
-            ，Theme by&nbsp&nbsp<a href="https://github.com/tangkunyin/hexo-theme-jsimple" target="_blank" rel="bookmark">JSimple</a>
-            ，Author&nbsp<a href="https://endcy.github.io/" target="_blank" rel="friend">endcy</a>
+            博客已创建&nbsp<a href="/timeline" id="siteBuildingTime"></a>&nbsp天，<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="licence">采用知识共享 4.0 国际许可协议创作</a><br/>
+            ©2017-<span id="cpYear"></span> 基于&nbsp<a href="http://hexo.io" target="_blank" rel="nofollow">Hexo</a>
+            ，主题采用&nbsp&nbsp<a href="https://github.com/tangkunyin/hexo-theme-jsimple" target="_blank" rel="bookmark">JSimple</a>
+            ，作者&nbsp<a href="https://endcy.github.io/" target="_blank" rel="friend">endcy</a>
             ，Hosted by <a href="https://pages.github.com/" target="_blank" rel="nofollow">GitHub Pages</a>
             
         </p>
@@ -197,7 +227,7 @@
                    spellcheck="false"
                    type="text"
                    autocomplete="off"
-                   placeholder="Input query keywords here..."/>
+                   placeholder="请输入查询关键词"/>
         </div>
     </div>
     <div id="local-search-result"></div>
