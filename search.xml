@@ -73,4 +73,10 @@
     <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
+  <entry>
+    <title>关于</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<p>本站点由hexo生成。站点中图文及内容部分来源于网络，如涉及侵犯您权益的内容请及时告知，作者将及时处理。<br>email:endcy#qq.com</p>
+]]></content>
+  </entry>
 </search>
